@@ -18,7 +18,7 @@ brew install minikube
 brew link hyperkit
 
 # Start minikube
-minikube start --vm-driver=hyperhit
+minikube start --vm-driver=hyperkit
 
 # Check status
 minikube status
