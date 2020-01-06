@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: pod-minikube
+  namespace: kafka
+
+spec:
+  restartPolicy: Never
+  hostNetwork: false
+
+  containers:
+    # - name: python
+    #   image: python:latest
+    - name: ubuntu
+      image: ubuntu:latest
+      command:
+        - tail
+        - -f
+        - /dev/null
