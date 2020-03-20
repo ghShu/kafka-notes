@@ -1,0 +1,2 @@
+https://www.youtube.com/watch?v=p8qSWE_nAAE
+https://blog.yugabyte.com/best-practices-for-deploying-confluent-kafka-spring-boot-distributed-sql-based-streaming-apps-on-kubernetes/
